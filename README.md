@@ -39,7 +39,7 @@ ORDER BY id DESC
 
 ### Join Statement 
 ```php
-$users = $db->from('users)
+$users = $db->from('users')
           ->innerJoin('posts', 'user_id')
           ->where('user_id',1)
           ->get();
