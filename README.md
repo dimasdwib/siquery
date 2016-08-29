@@ -134,7 +134,7 @@ if(empty($db->getError())){
 
 } else {
 
-    $db->ROLLBACK; //Rollback transaction
+    $db->ROLLBACK(); //Rollback transaction
 
 }
 ```
